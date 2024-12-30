@@ -3,9 +3,7 @@ import numpy as np
 
 def aumentar_volumen(input_file, output_file, factor):
     data, samplerate = sf.read(input_file)
-    # Aumentar el volumen
     data_aumentada = data * factor
-    # Guardar el nuevo archivo
     sf.write(output_file, data_aumentada, samplerate)
 
 nombre = input("Nombre del archivo:")
