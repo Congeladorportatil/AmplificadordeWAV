@@ -9,6 +9,6 @@ Este proyecto permite aumentar o reducir el volumen de archivos WAV mediante un 
 ## Instalación
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tuusuario/AmplificadordeWAV.git
+   git clone https://github.com/Congeladorportatil/AmplificadordeWAV
    cd AmplificadordeWAV
 
